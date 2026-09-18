@@ -7,9 +7,11 @@ permalink: /structure/
 
 <div class="prose">
 
+<p class="eyebrow page-eyebrow">Privacy by architecture</p>
+
 # Public toolkit, private projects
 
-Use one public repository for the reusable framework and one private repository for each church.
+<p class="page-lead">Use one public repository for the reusable framework and one private repository for each church.</p>
 
 ```text
 church-website-blueprint/       Public
@@ -62,4 +64,3 @@ Suggested views:
 Each private church project uses its own `project-state.md` and coverage matrix. A separate private GitHub Project is optional when the engagement needs issue-level coordination.
 
 </div>
-

@@ -7,9 +7,11 @@ permalink: /versioning/
 
 <div class="prose">
 
+<p class="eyebrow page-eyebrow">Improve without silently breaking</p>
+
 # Versions and improvements
 
-The public toolkit follows semantic versioning. Every private project records the exact version and project schema it began with.
+<p class="page-lead">The public toolkit follows semantic versioning. Every private project records the exact version and project schema it began with.</p>
 
 Version 0.1.0 is an experimental field-testing release. Its contracts may evolve more quickly than they will after 1.0, but changes should still be documented and released deliberately.
 

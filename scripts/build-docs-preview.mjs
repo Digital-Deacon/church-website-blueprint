@@ -33,11 +33,13 @@ function parseDocument(source) {
 
 function resolveLayout(template, page, content) {
   const title = page.title || "Church Website Blueprint";
+  const documentTitle = title === "Church Website Blueprint" ? title : `${title} · Church Website Blueprint`;
   const description = page.description || "A guided, source-faithful church website process.";
   const base = page.base;
   const links = {
     "{{ '/assets/site.css' | relative_url }}": `${base}/assets/site.css`,
     "{{ '/assets/favicon.svg' | relative_url }}": `${base}/assets/favicon.svg`,
+    "{{ '/assets/digital-deacon-logo.svg' | relative_url }}": `${base}/assets/digital-deacon-logo.svg`,
     "{{ '/' | relative_url }}": `${base}/`,
     "{{ '/humans/' | relative_url }}": `${base}/humans/`,
     "{{ '/agents/' | relative_url }}": `${base}/agents/`,
@@ -48,7 +50,7 @@ function resolveLayout(template, page, content) {
 
   let html = template
     .replace("{{ page.description | default: site.description }}", description)
-    .replace("{{ page.title | default: site.title }}{% unless page.title == site.title %} · {{ site.title }}{% endunless %}", `${title} · Church Website Blueprint`)
+    .replace("{{ page.title | default: site.title }}{% unless page.title == site.title %} · {{ site.title }}{% endunless %}", documentTitle)
     .replace("{{ content }}", content);
 
   for (const [token, value] of Object.entries(links)) {
@@ -62,6 +64,7 @@ await rm(output, { recursive: true, force: true });
 await mkdir(path.join(output, "assets"), { recursive: true });
 await cp(path.join(docs, "assets", "site.css"), path.join(output, "assets", "site.css"));
 await cp(path.join(docs, "assets", "favicon.svg"), path.join(output, "assets", "favicon.svg"));
+await cp(path.join(docs, "assets", "digital-deacon-logo.svg"), path.join(output, "assets", "digital-deacon-logo.svg"));
 
 for (const page of pages) {
   const raw = await readFile(path.join(docs, page.source), "utf8");

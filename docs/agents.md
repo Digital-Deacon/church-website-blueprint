@@ -7,7 +7,11 @@ permalink: /agents/
 
 <div class="prose">
 
+<p class="eyebrow page-eyebrow">For agents and technical facilitators</p>
+
 # Point an agent to it
+
+<p class="page-lead">Use a stable project record, a source-faithful skill, and a private workspace to help the process move without turning chat memory into the system of record.</p>
 
 The repository includes two agent entry points:
 
@@ -66,4 +70,3 @@ The new workspace contains project state, coverage, source, ledger, DNA, strateg
 The skill loads only the reference needed for the current mode.
 
 </div>
-

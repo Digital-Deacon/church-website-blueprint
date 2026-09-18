@@ -7,9 +7,11 @@ permalink: /humans/
 
 <div class="prose">
 
+<p class="eyebrow page-eyebrow">For facilitators and church teams</p>
+
 # Run it with people
 
-The process is designed to begin with a conversation, not a homework packet. One person can facilitate it for a church, or two people at the same church can work through it together.
+<p class="page-lead">The process is designed to begin with a conversation, not a homework packet. One person can facilitate it for a church, or two people at the same church can work through it together.</p>
 
 ## 1. Start the project
 
@@ -50,4 +52,3 @@ Before launch, name primary and backup administrators, content owners, form reci
 For the complete facilitator material, open the `playbook/` directory in the GitHub repository.
 
 </div>
-
