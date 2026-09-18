@@ -43,7 +43,7 @@ function resolveLayout(template, page, content) {
     "{{ '/agents/' | relative_url }}": `${base}/agents/`,
     "{{ '/structure/' | relative_url }}": `${base}/structure/`,
     "{{ '/versioning/' | relative_url }}": `${base}/versioning/`,
-    "{{ site.github.repository_url | default: '#' }}": "#",
+    "{{ site.github.repository_url | default: '#' }}": "https://github.com/Digital-Deacon/church-website-blueprint",
   };
 
   let html = template

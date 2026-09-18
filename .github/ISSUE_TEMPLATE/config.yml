@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Sensitive security or privacy report
-    url: https://github.com/iviaxpow3r/church-website-blueprint/security/advisories/new
+    url: https://github.com/Digital-Deacon/church-website-blueprint/security/advisories/new
     about: Configure a private security contact after the repository is created. Do not report sensitive information publicly.
