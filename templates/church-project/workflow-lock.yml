@@ -1,0 +1,6 @@
+toolkit: church-website-blueprint
+toolkit_version: "{{WORKFLOW_VERSION}}"
+project_schema: 1
+created_on: "{{DATE}}"
+project_slug: "{{SLUG}}"
+

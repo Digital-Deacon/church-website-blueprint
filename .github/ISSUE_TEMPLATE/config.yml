@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sensitive security or privacy report
+    url: https://github.com/
+    about: Configure a private security contact after the repository is created. Do not report sensitive information publicly.
+

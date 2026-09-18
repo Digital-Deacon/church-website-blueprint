@@ -1,0 +1,61 @@
+name: Field report
+description: Share a sanitized lesson from using the workflow in a real project.
+title: "[Field report]: "
+labels: ["field-learning"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include private church information, transcripts, credentials, or identifiable pastoral details.
+  - type: dropdown
+    id: project-path
+    attributes:
+      label: Project path
+      options:
+        - New site
+        - Full redesign
+        - Targeted improvement
+        - Toolkit-only test
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Project launch
+        - Existing-site assessment
+        - Interview and discovery
+        - Transcript and fact extraction
+        - DNA documents
+        - Strategy and sitemap
+        - Copy
+        - Design
+        - Build and launch
+        - Maintenance
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened?
+      description: Describe the participant or agent behavior you observed.
+    validations:
+      required: true
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Why did it matter?
+      description: Explain the confusion, delay, accuracy risk, or missed outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence
+      description: Include a synthetic example or redacted artifact when possible.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Possible improvement
+      description: Optional. Start with the observed problem; the final solution may differ.
+

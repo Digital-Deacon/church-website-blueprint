@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <meta name="theme-color" content="#173f3a">
+    <title>{{ page.title | default: site.title }}{% unless page.title == site.title %} · {{ site.title }}{% endunless %}</title>
+    <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        <span class="brand-mark" aria-hidden="true">CWB</span>
+        <span>Church Website Blueprint</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="{{ '/humans/' | relative_url }}">For people</a>
+        <a href="{{ '/agents/' | relative_url }}">For agents</a>
+        <a href="{{ '/structure/' | relative_url }}">Project structure</a>
+        <a href="{{ '/versioning/' | relative_url }}">Versions</a>
+      </nav>
+    </header>
+    <main id="main">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <p>Church Website Blueprint · Source-faithful discovery, content, design, and launch.</p>
+      <p><a href="{{ site.github.repository_url | default: '#' }}">View the toolkit on GitHub</a></p>
+    </footer>
+  </body>
+</html>
+

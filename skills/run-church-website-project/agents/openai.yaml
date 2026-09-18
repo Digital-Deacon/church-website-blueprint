@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run a Church Website Project"
+  short_description: "Guide a source-faithful church website project"
+  default_prompt: "Use $run-church-website-project to initialize and guide this church website project."

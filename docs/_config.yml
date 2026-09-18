@@ -1,0 +1,7 @@
+title: Church Website Blueprint
+description: A guided, source-faithful process for creating or improving a church website.
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+

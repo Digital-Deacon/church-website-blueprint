@@ -1,0 +1,36 @@
+name: Problem or correction
+description: Report an error, contradiction, unclear instruction, or broken asset.
+title: "[Problem]: "
+labels: ["needs-triage"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Toolkit version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: File, page, or skill mode
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior or meaning
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior or problem
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction or evidence
+      description: Use synthetic or redacted data only.
+

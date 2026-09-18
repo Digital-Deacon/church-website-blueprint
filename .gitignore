@@ -1,0 +1,11 @@
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+_site/
+workspaces/
+private-projects/
+*.log
+.env
+.env.*
+!.env.example
