@@ -5,7 +5,7 @@ description: How the public toolkit and private church projects fit together.
 permalink: /structure/
 ---
 
-<div class="prose">
+<div class="prose" markdown="1">
 
 <p class="eyebrow page-eyebrow">Privacy by architecture</p>
 

@@ -5,7 +5,7 @@ description: How to point any file-capable AI agent to Church Website Blueprint 
 permalink: /agents/
 ---
 
-<div class="prose guide-page agent-page">
+<div class="prose guide-page agent-page" markdown="1">
 
 <p class="eyebrow page-eyebrow">Bring your own AI</p>
 

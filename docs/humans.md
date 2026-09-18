@@ -5,7 +5,7 @@ description: A plain-English guide to running Church Website Blueprint with your
 permalink: /humans/
 ---
 
-<div class="prose guide-page">
+<div class="prose guide-page" markdown="1">
 
 <p class="eyebrow page-eyebrow">The step-by-step guide</p>
 

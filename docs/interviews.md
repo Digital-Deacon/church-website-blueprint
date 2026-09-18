@@ -5,7 +5,7 @@ description: A practical guide to recording church website discovery interviews 
 permalink: /interviews/
 ---
 
-<div class="prose guide-page interview-page">
+<div class="prose guide-page interview-page" markdown="1">
 
 <p class="eyebrow page-eyebrow">Conversation guide</p>
 

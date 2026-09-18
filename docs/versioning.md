@@ -5,7 +5,7 @@ description: How the toolkit changes without silently breaking active church pro
 permalink: /versioning/
 ---
 
-<div class="prose">
+<div class="prose" markdown="1">
 
 <p class="eyebrow page-eyebrow">Improve without silently breaking</p>
 
