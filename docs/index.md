@@ -58,6 +58,21 @@ description: A practical, AI-assisted process for creating or improving a clear,
   </div>
 </section>
 
+<section class="section research-section" id="research">
+  <div class="research-panel">
+    <div>
+      <p class="eyebrow section-eyebrow">Research-informed, church-specific</p>
+      <h2>The framework knows websites. Your church defines itself.</h2>
+      <p>Church Website Blueprint synthesizes recurring guidance about what visitors look for, how information should be organized, what supports search and accessibility, and what keeps a site useful after launch.</p>
+    </div>
+    <div class="research-boundary">
+      <strong>It does not tell you the right way to do church.</strong>
+      <p>It takes the truth of what your church already believes and does, then helps communicate that clearly enough for an outside visitor to understand whether it may be the right place for them to explore.</p>
+      <a href="{{ '/principles/' | relative_url }}">See the research and principles →</a>
+    </div>
+  </div>
+</section>
+
 <section class="section prep-section">
   <div class="section-heading-row">
     <div>
@@ -171,6 +186,31 @@ description: A practical, AI-assisted process for creating or improving a clear,
       <p>The framework is portable. Use the ready-to-copy setup prompt with Codex, Claude Code, OpenCode, OpenClaw, Hermes, or another file-capable agent. It tells the agent where to begin, how to protect private information, and how to guide the human one useful step at a time.</p>
     </div>
     <a class="button light" href="{{ '/agents/' | relative_url }}">Copy the agent setup</a>
+  </div>
+</section>
+
+<section class="section platform-section" id="deployment">
+  <div class="platform-panel">
+    <div class="platform-copy">
+      <p class="eyebrow">Optional deployment path</p>
+      <h2>Need a place to build and launch? Consider B1.church.</h2>
+      <p>The framework is platform-independent, but B1.church is a strong option when a church wants an integrated system without a software or hosting subscription. Its API and MCP support also make it possible for an authorized agent to help create and maintain website pages.</p>
+      <div class="platform-actions">
+        <a class="button primary" href="https://www.b1.church/">Explore B1.church ↗</a>
+        <a class="platform-link" href="https://support.churchapps.org/docs/developer/api/mcp/">Read the MCP documentation ↗</a>
+      </div>
+    </div>
+    <div class="platform-features">
+      <span>Currently included</span>
+      <ul>
+        <li>Hosted public website and drag-and-drop builder</li>
+        <li>Installable member portal, groups, messages, and sermons</li>
+        <li>Online and recurring giving with no added B1 platform fee</li>
+        <li>Livestreaming, events, forms, people, attendance, and check-in</li>
+        <li>Open-source code, REST API, and an authenticated MCP server</li>
+      </ul>
+      <small>B1.church is optional and independently operated by ChurchApps/Live Church Solutions. Standard payment-processor fees still apply to online gifts.</small>
+    </div>
   </div>
 </section>
 

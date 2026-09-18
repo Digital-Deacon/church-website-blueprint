@@ -13,6 +13,12 @@ Bring the agentic system you already use. The repository is not tied to one mode
 
 The system works when a church arrives with a complete archive or with nothing beyond one knowledgeable person willing to talk.
 
+## Research-informed, not ecclesial
+
+The framework synthesizes recurring church-website guidance about visitor questions, information hierarchy, essential pages, search fundamentals, accessibility, and ongoing ownership. It has opinions about effective websites, not about the right theology, denomination, worship style, ministry model, or way to do church.
+
+The church supplies the facts, beliefs, practices, and decisions. The framework helps communicate them clearly so an outside visitor can understand the church, determine whether it may be a good fit, and take an appropriate next step. The goal is truthful clarity, not persuasion through generic promises.
+
 ## Start here
 
 ### I want to understand the human process

@@ -111,6 +111,18 @@ If the agent cannot run the initializer, it may reproduce the same structure fro
   <a href="https://github.com/Digital-Deacon/church-website-blueprint/tree/main/templates/church-project"><span>Files</span><strong>Private Project Template</strong><em>The stable workspace structure the agent reads and updates throughout the project.</em><b>Open ↗</b></a>
 </div>
 
+## Optional: build and deploy through B1.church
+
+If the church chooses B1.church, an MCP-aware agent can connect to B1’s authenticated MCP server, discover the current REST routes, load the page-builder guide, and work with website pages through the API.
+
+Use a church-scoped API key with only the permissions the agent needs. The agent should inspect the live route inventory and page-builder description before making changes, show the human what it intends to create or update, obtain authorization for writes, and verify the published result afterward.
+
+<div class="b1-note">
+  <strong>Why it fits this workflow</strong>
+  <p>B1 combines the hosted public website with the church’s member portal, giving, sermons, livestreaming, events, groups, forms, people, attendance, and check-in. The framework remains platform-independent; B1 is simply an optional path with unusually direct agent access.</p>
+  <p><a href="https://www.b1.church/">Explore B1.church ↗</a> <a href="https://support.churchapps.org/docs/developer/api/mcp/">Open the official MCP guide ↗</a></p>
+</div>
+
 <div class="next-panel">
   <p class="eyebrow">Agent connected?</p>
   <h2>Now run the first launch conversation.</h2>

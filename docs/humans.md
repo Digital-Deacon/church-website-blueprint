@@ -19,6 +19,11 @@ permalink: /humans/
   <a href="{{ '/agents/' | relative_url }}">Copy the agent setup prompt →</a>
 </div>
 
+<div class="facilitator-note">
+  <strong>Who can guide the process?</strong>
+  <p>A website professional can lead it, but that is not required for the first conversations. A pastor, staff member, volunteer, or two church representatives can follow the questions together while the agent tracks coverage, structures the information, and recommends what should happen next.</p>
+</div>
+
 ## 1. Connect your AI agent
 
 The system is designed to work with an agent throughout the project. Use Codex, Claude Code, OpenCode, OpenClaw, Hermes, or another agentic system that can read and update files, follow repository instructions, and continue work from persistent project state.
@@ -137,6 +142,13 @@ Create a `design.md` that records the visual direction, typography, color, image
 AI may propose copy, structure, and design. A responsible person must still review theological wording, factual claims, privacy, visual direction, and the final implementation.
 
 <a class="inline-cta" href="https://github.com/Digital-Deacon/church-website-blueprint/blob/main/playbook/02-templates-and-prompts.md">Open the page, DNA, design, and AI templates ↗</a>
+
+<div class="b1-note">
+  <strong>Optional platform: B1.church</strong>
+  <p>The framework works with any suitable website platform. If you do not have one, B1.church offers a free hosted website builder alongside a member portal, giving, groups, sermons, livestreaming, forms, people, attendance, and check-in. Its authenticated API and MCP server can also let a properly authorized agent build and maintain pages.</p>
+  <p><a href="https://www.b1.church/">Explore B1.church ↗</a> <a href="https://support.churchapps.org/docs/developer/api/mcp/">See the agent/MCP documentation ↗</a></p>
+  <small>B1 is not required or bundled with Church Website Blueprint. Standard payment-processor fees apply to online gifts even though B1 adds no platform fee.</small>
+</div>
 
 ## 10. Test the website and hand off ownership
 

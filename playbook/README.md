@@ -17,6 +17,8 @@ The workflow assumes **zero preparation is acceptable**. A knowledgeable represe
 
 The research behind this workflow recommends a simple, visitor-friendly site, usually with 7–10 core pages. It also suggests prioritizing first-time visitors, making service times and location obvious, using one primary call to action, and giving someone explicit responsibility for keeping the site current. Those are defaults, not facts about a particular church.
 
+This is a website point of view, not an ecclesial one. The workflow does not rank theologies, denominations, worship styles, ministry models, or programs. It uses the church's approved truth to help visitors understand identity, practical experience, fit, and next steps without manipulation or generic promises.
+
 ## The content model
 
 ```text

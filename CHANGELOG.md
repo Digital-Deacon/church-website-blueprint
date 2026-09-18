@@ -12,6 +12,8 @@ The project follows semantic versioning.
 - Added a plain-English start guide, agent setup prompt, preparation checklist, and direct links to key toolkit resources.
 - Added a focused interview guide with launch questions, session structure, topic routing, and post-interview steps.
 - Simplified the public navigation around starting, interviewing, and connecting an agent.
+- Added a research-and-principles guide explaining the framework's visitor-focused website expertise, theological neutrality, source boundaries, and fit-not-persuasion goal.
+- Added B1.church as an optional, independently operated deployment path with current pricing, integrated platform, API, and MCP context.
 
 ## [0.1.0] — 2026-09-18
 

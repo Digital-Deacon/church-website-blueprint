@@ -14,6 +14,7 @@ const layout = await readFile(path.join(docs, "_layouts", "default.html"), "utf8
 const pages = [
   { source: "index.md", destination: "index.html", base: "." },
   { source: "humans.md", destination: "humans/index.html", base: ".." },
+  { source: "principles.md", destination: "principles/index.html", base: ".." },
   { source: "interviews.md", destination: "interviews/index.html", base: ".." },
   { source: "agents.md", destination: "agents/index.html", base: ".." },
   { source: "structure.md", destination: "structure/index.html", base: ".." },
@@ -43,6 +44,7 @@ function resolveLayout(template, page, content) {
     "{{ '/assets/digital-deacon-logo.svg' | relative_url }}": `${base}/assets/digital-deacon-logo.svg`,
     "{{ '/' | relative_url }}": `${base}/`,
     "{{ '/humans/' | relative_url }}": `${base}/humans/`,
+    "{{ '/principles/' | relative_url }}": `${base}/principles/`,
     "{{ '/interviews/' | relative_url }}": `${base}/interviews/`,
     "{{ '/agents/' | relative_url }}": `${base}/agents/`,
     "{{ '/structure/' | relative_url }}": `${base}/structure/`,
