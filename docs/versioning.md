@@ -11,6 +11,8 @@ permalink: /versioning/
 
 The public toolkit follows semantic versioning. Every private project records the exact version and project schema it began with.
 
+Version 0.1.0 is an experimental field-testing release. Its contracts may evolve more quickly than they will after 1.0, but changes should still be documented and released deliberately.
+
 ## Patch
 
 Corrections and clarification that do not require project migration.
@@ -47,4 +49,3 @@ project_schema: 1
 Review release notes before upgrading an active church project.
 
 </div>
-

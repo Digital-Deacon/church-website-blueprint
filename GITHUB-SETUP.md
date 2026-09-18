@@ -7,7 +7,7 @@ Decide:
 - repository owner: personal account or organization;
 - final repository name;
 - public or private visibility;
-- code and content licenses;
+- license;
 - private security contact;
 - whether outside contributors may open issues and pull requests.
 
@@ -29,7 +29,7 @@ gh repo create OWNER/church-website-blueprint \
   --push
 ```
 
-Do not run the final command until the license and repository owner are confirmed.
+The initial repository uses the MIT License.
 
 ## Repository settings
 
@@ -90,7 +90,7 @@ If the repository moves into a GitHub organization, make the Project an organiza
 
 After the repository and Pages site are verified:
 
-1. confirm the selected licenses are present;
+1. confirm the MIT License is present;
 2. run skill and initializer validation;
 3. review the changelog and version;
 4. commit the final release state;
@@ -102,4 +102,3 @@ After the repository and Pages site are verified:
 ## Active church projects
 
 Initialize each project from a tagged release and keep its `workflow-lock.yml` committed in the private repository. Do not point live projects at an unversioned `main` branch and assume future changes are compatible.
-

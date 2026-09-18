@@ -2,6 +2,8 @@
 
 An adaptive, source-faithful system for discovering, planning, writing, designing, and improving a church website.
 
+> **Experimental status:** Version `0.1.0` is an early field-testing release. The architecture and templates are usable, but the complete workflow has not yet been validated across many church projects. Expect refinements as real projects reveal gaps.
+
 This repository serves two audiences:
 
 - **Humans** get a guided process built around conversations, clear review packets, and reusable templates.
@@ -97,6 +99,6 @@ See [GITHUB-SETUP.md](GITHUB-SETUP.md) for repository, Pages, Project, branch pr
 
 Field experience should improve the framework without silently changing its promises. See [CONTRIBUTING.md](CONTRIBUTING.md) and use the issue templates for field reports, corrections, and proposals.
 
-## Licensing
+## License
 
-A public-use license still needs to be selected before the repository is published. See [LICENSE-OPTIONS.md](LICENSE-OPTIONS.md). Until a license is chosen, the repository is source-visible but does not grant reuse rights.
+This project is available under the [MIT License](LICENSE). You may use, modify, and redistribute it subject to that license.

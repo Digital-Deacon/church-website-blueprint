@@ -23,6 +23,10 @@ description: A guided process for helping a church create or improve a clear, tr
 </section>
 
 <section class="section">
+  <div class="callout"><strong>Early field-testing release:</strong> The framework is being built in public and has not yet been run through a large number of complete church website projects. Version 0.1.0 should be treated as a strong working foundation that will improve through real use.</div>
+</section>
+
+<section class="section">
   <h2>Two ways to use the same system</h2>
   <p class="section-intro">The participant experience stays simple, while the supporting project files preserve facts, questions, decisions, sources, and approvals.</p>
   <div class="path-grid">
@@ -73,4 +77,3 @@ description: A guided process for helping a church create or improve a clear, tr
   <div class="callout"><strong>Never put church project data in the public toolkit or published guide.</strong></div>
   <p><a href="{{ '/structure/' | relative_url }}">See the repository and private-project structure →</a></p>
 </section>
-

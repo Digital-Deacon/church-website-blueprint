@@ -8,6 +8,8 @@ The project follows semantic versioning.
 
 ## [0.1.0] — 2026-09-18
 
+Experimental field-testing release. The full workflow has not yet been validated across a broad set of church projects.
+
 ### Added
 
 - Adaptive interview and discovery workflow.
@@ -19,4 +21,3 @@ The project follows semantic versioning.
 - Private church-project initializer and template.
 - GitHub Pages-ready human guide.
 - Contribution, issue, versioning, privacy, and release guidance.
-
