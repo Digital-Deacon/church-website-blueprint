@@ -37,6 +37,7 @@ function resolveLayout(template, page, content) {
   const base = page.base;
   const links = {
     "{{ '/assets/site.css' | relative_url }}": `${base}/assets/site.css`,
+    "{{ '/assets/favicon.svg' | relative_url }}": `${base}/assets/favicon.svg`,
     "{{ '/' | relative_url }}": `${base}/`,
     "{{ '/humans/' | relative_url }}": `${base}/humans/`,
     "{{ '/agents/' | relative_url }}": `${base}/agents/`,
@@ -60,6 +61,7 @@ function resolveLayout(template, page, content) {
 await rm(output, { recursive: true, force: true });
 await mkdir(path.join(output, "assets"), { recursive: true });
 await cp(path.join(docs, "assets", "site.css"), path.join(output, "assets", "site.css"));
+await cp(path.join(docs, "assets", "favicon.svg"), path.join(output, "assets", "favicon.svg"));
 
 for (const page of pages) {
   const raw = await readFile(path.join(docs, page.source), "utf8");
@@ -74,4 +76,3 @@ for (const page of pages) {
 }
 
 console.log(`Built documentation preview at ${output}`);
-
