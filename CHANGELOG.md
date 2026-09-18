@@ -6,6 +6,13 @@ The project follows semantic versioning.
 
 ## [Unreleased]
 
+### Changed
+
+- Reframed the published guide around a bring-your-own-AI workflow in which people supply and approve church knowledge while the agent runs the project framework.
+- Added a plain-English start guide, agent setup prompt, preparation checklist, and direct links to key toolkit resources.
+- Added a focused interview guide with launch questions, session structure, topic routing, and post-interview steps.
+- Simplified the public navigation around starting, interviewing, and connecting an agent.
+
 ## [0.1.0] — 2026-09-18
 
 Experimental field-testing release. The full workflow has not yet been validated across a broad set of church projects.

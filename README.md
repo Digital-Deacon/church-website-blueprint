@@ -1,23 +1,25 @@
 # Church Website Blueprint
 
-An adaptive, source-faithful system for discovering, planning, writing, designing, and improving a church website.
+An adaptive, source-faithful framework for using your preferred AI agent to discover, plan, write, design, and improve a church website.
 
 > **Experimental status:** Version `0.1.0` is an early field-testing release. The architecture and templates are usable, but the complete workflow has not yet been validated across many church projects. Expect refinements as real projects reveal gaps.
 
-This repository serves two audiences:
+The framework is designed to be used by people and an AI agent together:
 
-- **Humans** get a guided process built around conversations, clear review packets, and reusable templates.
-- **Agents** get a portable skill, explicit project state, source-fidelity rules, and deterministic workspace initialization.
+- **People** supply church knowledge, source materials, decisions, correction, and approval through a simple guided process.
+- **The agent** reads the portable skill, maintains project state, prepares interviews, structures evidence, identifies gaps, and creates the next artifact.
+
+Bring the agentic system you already use. The repository is not tied to one model or product; it can work with Codex, Claude Code, OpenCode, OpenClaw, Hermes, or another agent that can read files, follow instructions, and maintain persistent project state.
 
 The system works when a church arrives with a complete archive or with nothing beyond one knowledgeable person willing to talk.
 
 ## Start here
 
-### I want to run the process with people
+### I want to understand the human process
 
 Read the [human-facing assets](playbook/00-human-facing-assets.md), then use the [interview guide](playbook/01-interview-guide.md). The published guide in `docs/` presents the same process as a walk-through.
 
-### I want an agent to run the process
+### I want to connect my AI agent
 
 Point the agent to [AGENTS.md](AGENTS.md) and ask it to use [`$run-church-website-project`](skills/run-church-website-project/SKILL.md).
 

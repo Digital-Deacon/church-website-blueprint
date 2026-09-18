@@ -22,11 +22,10 @@
           <span class="brand-product">Church Website<br>Blueprint</span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="{{ '/humans/' | relative_url }}">For people</a>
-          <a href="{{ '/agents/' | relative_url }}">For agents</a>
-          <a href="{{ '/structure/' | relative_url }}">Structure</a>
-          <a href="{{ '/versioning/' | relative_url }}">Versions</a>
-          <a class="nav-toolkit" href="{{ site.github.repository_url | default: '#' }}">View toolkit <span aria-hidden="true">↗</span></a>
+          <a href="{{ '/humans/' | relative_url }}">Start here</a>
+          <a href="{{ '/interviews/' | relative_url }}">Interview questions</a>
+          <a href="{{ '/agents/' | relative_url }}">Connect AI</a>
+          <a class="nav-toolkit" href="{{ site.github.repository_url | default: '#' }}">Open toolkit <span aria-hidden="true">↗</span></a>
         </nav>
       </div>
     </header>
@@ -41,11 +40,30 @@
           <p class="footer-copy">Source-faithful discovery, content, design, and launch.</p>
         </div>
         <div class="footer-links">
-          <a href="{{ '/humans/' | relative_url }}">Run the process</a>
-          <a href="{{ '/agents/' | relative_url }}">Agent setup</a>
+          <a href="{{ '/humans/' | relative_url }}">Start the guide</a>
+          <a href="{{ '/interviews/' | relative_url }}">Interview questions</a>
+          <a href="{{ '/agents/' | relative_url }}">Connect an agent</a>
+          <a href="{{ '/structure/' | relative_url }}">Project structure</a>
+          <a href="{{ '/versioning/' | relative_url }}">Versions</a>
           <a href="{{ site.github.repository_url | default: '#' }}">GitHub repository <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener("click", async (event) => {
+        const button = event.target.closest("[data-copy-target]");
+        if (!button) return;
+        const target = document.getElementById(button.dataset.copyTarget);
+        if (!target) return;
+        const originalLabel = button.textContent;
+        try {
+          await navigator.clipboard.writeText(target.textContent.trim());
+          button.textContent = "Copied";
+        } catch {
+          button.textContent = "Select and copy";
+        }
+        window.setTimeout(() => { button.textContent = originalLabel; }, 2200);
+      });
+    </script>
   </body>
 </html>
