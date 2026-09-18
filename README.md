@@ -31,7 +31,9 @@ Point the agent to [AGENTS.md](AGENTS.md) and ask it to use [`$run-church-websit
 
 Example:
 
-> Read AGENTS.md and use the run-church-website-project skill. Initialize a private project for Grace Church. We have an existing website at [URL], and the first interview is next week.
+> Read AGENTS.md and use the run-church-website-project skill. Start a church website project with me. Do not ask me to fill in a template first; lead a short setup conversation, record my answers, accept unknowns, initialize the private workspace, and tell me the next useful action.
+
+You can paste that without adding a church name or website URL. The agent will ask for the church name, project type, current site, goals, people, source materials, constraints, workspace location, and interview setup as part of initialization.
 
 ### I want to create a private church workspace
 

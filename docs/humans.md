@@ -28,7 +28,7 @@ permalink: /humans/
 
 The system is designed to work with an agent throughout the project. Use Codex, Claude Code, OpenCode, OpenClaw, Hermes, or another agentic system that can read and update files, follow repository instructions, and continue work from persistent project state.
 
-Give the agent the repository link and setup prompt. It will read `AGENTS.md`, load the `run-church-website-project` skill, create the private project structure, and guide you to the next useful human action.
+Give the agent the repository link and paste-ready setup prompt. You do not need to customize it or complete a form first. The agent will read `AGENTS.md`, load the `run-church-website-project` skill, ask the initial setup questions conversationally, record your answers, create the private project structure, and guide you to the next useful human action. If you do not know an answer yet, say so; it becomes an open question rather than a blocker.
 
 <a class="inline-cta" href="{{ '/agents/' | relative_url }}">Open the bring-your-own-AI setup →</a>
 

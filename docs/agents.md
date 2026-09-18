@@ -20,28 +20,46 @@ permalink: /agents/
 
 ## Copy this into your agent
 
-Replace the bracketed details if you know them. It is fine to leave them unknown and let the agent ask.
+Paste this prompt as-is. You do not need to fill in a template or know all the answers first. The agent will begin with a short setup conversation and record the answers for you.
 
-<div class="copy-block">
+<div class="copy-block" id="agent-setup-prompt" markdown="1">
 <button type="button" class="copy-button" data-copy-target="agent-setup-prompt">Copy prompt</button>
-<pre id="agent-setup-prompt"><code>Use the Church Website Blueprint:
+
+```text
+Use the Church Website Blueprint:
 https://github.com/Digital-Deacon/church-website-blueprint
 
 Read AGENTS.md completely. Then read
 skills/run-church-website-project/SKILL.md and only the reference files
 needed for our current phase.
 
-Help us create or improve the website for [Church Name].
-Our current website is [URL / none / unknown].
-We believe this is a [new site / redesign / focused improvement / undecided].
+Start a church website project with me. Do not ask me to complete a template,
+questionnaire, or placeholders before we begin. Lead a short, conversational
+setup and capture the answers in the project files yourself.
+
+Ask for only what you need to initialize the project, including:
+- the church name and primary contact;
+- whether this is a new site, full redesign, focused improvement, or unclear;
+- any current website URL;
+- why the project is happening now and what should become clearer or easier;
+- who knows the church and who can approve facts, theology, design,
+  technology, and launch;
+- what source materials, brand assets, and photography already exist;
+- known timing, budget, platform, privacy, or staffing constraints;
+- where the private project workspace should live; and
+- how interviews will be recorded and transcribed.
+
+Ask these naturally in small groups, not as one large form. Accept "unknown"
+as a valid answer and do not block setup when I have no preparation. Do not
+infer answers I did not give. After the setup conversation, summarize what
+you heard, initialize the private workspace, record unknowns as open questions,
+and give me one concrete next action.
 
 Create a separate private project workspace. Never store church transcripts,
 personal information, credentials, internal decisions, analytics exports, or
 unpublished content in the public toolkit repository.
 
-Guide us one useful step at a time. Begin by determining the project path,
-who knows the church, who can approve the work, what evidence already exists,
-and how interviews will be recorded and transcribed.
+Guide us one useful step at a time.
 
 Use interviews and supplied materials as sources. Do not invent church facts,
 doctrine, programs, policies, promises, stories, biographies, or operational
@@ -52,15 +70,16 @@ Maintain the project state, coverage matrix, open questions, decision log,
 approvals, source files, and appropriate project artifacts. Tell the human
 what to prepare, discuss, decide, or approve next without exposing them to the
 entire internal file tree.
-</code></pre>
+```
+
 </div>
 
 ## What happens next
 
 <ol class="agent-sequence">
-  <li><span>01</span><div><h3>The agent reads the framework</h3><p>`AGENTS.md` provides repository-wide rules. The portable skill routes the agent to the instructions for starting, assessment, discovery, content and design, or launch.</p></div></li>
-  <li><span>02</span><div><h3>The agent creates a private workspace</h3><p>The project template separates church sources and working files from the public toolkit and pins the framework version being used.</p></div></li>
-  <li><span>03</span><div><h3>The agent asks the human what matters now</h3><p>It determines the project type, existing evidence, participants, approvers, constraints, and first useful action.</p></div></li>
+  <li><span>01</span><div><h3>The agent reads the framework</h3><p><code>AGENTS.md</code> provides repository-wide rules. The portable skill routes the agent to the instructions for starting, assessment, discovery, content and design, or launch.</p></div></li>
+  <li><span>02</span><div><h3>The agent runs a short setup conversation</h3><p>It asks for the church name, project type, current website, goal, people, existing materials, constraints, workspace, and interview setup. “Unknown” is always an acceptable answer.</p></div></li>
+  <li><span>03</span><div><h3>The agent creates a private workspace</h3><p>It records the answers for you, turns missing information into open questions, and uses the project template to keep church sources and working files out of the public toolkit.</p></div></li>
   <li><span>04</span><div><h3>The agent prepares the next conversation</h3><p>It assesses what is already known and creates a short Conversation Brief using the highest-value unanswered questions.</p></div></li>
   <li><span>05</span><div><h3>The human records the interview</h3><p>People supply the church knowledge. The recording and transcript are saved as private source material.</p></div></li>
   <li><span>06</span><div><h3>The agent structures and advances the project</h3><p>It extracts claims, finds gaps, creates DNA and downstream artifacts, requests approvals, and always leaves one concrete next action.</p></div></li>

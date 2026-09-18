@@ -9,7 +9,7 @@ Guide the project through conversations, evidence, canonical DNA documents, visi
 
 ## Find the project
 
-If no private project workspace exists, locate the Church Website Blueprint repository and run its project initializer. Do not place church-specific data in the public toolkit repository.
+If no private project workspace exists, read [start-and-route.md](references/start-and-route.md) and begin with its guided setup conversation. Do not require the participant to prefill a questionnaire, template, or prompt. Ask for the minimum setup information conversationally, write the answers into the project files, and accept `unknown` without blocking progress. Once the church name and workspace location are known, locate the Church Website Blueprint repository and run its project initializer. Do not place church-specific data in the public toolkit repository.
 
 If a project exists, read these files before acting:
 
@@ -37,7 +37,7 @@ AI may organize, clarify, condense, compare, and propose. It may not invent chur
 
 ### Initialize or determine project path
 
-Read [start-and-route.md](references/start-and-route.md). Use it for new projects, redesigns, targeted improvements, unclear scope, and zero-preparation launch conversations.
+Read [start-and-route.md](references/start-and-route.md). Use it for new projects, redesigns, targeted improvements, unclear scope, and zero-preparation launch conversations. The agent conducts the setup and records the answers; the human is not assigned form-filling homework.
 
 ### Assess an existing site
 
@@ -84,4 +84,3 @@ Do not expose participants to the entire internal file tree when a focused revie
 ## Completion standard
 
 The process is complete when approved DNA supports the public copy, visitors can understand identity and fit, critical journeys work, factual and privacy checks pass, ongoing owners are assigned, and launch approval is recorded.
-

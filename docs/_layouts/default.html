@@ -58,9 +58,10 @@
         if (!button) return;
         const target = document.getElementById(button.dataset.copyTarget);
         if (!target) return;
+        const copySource = target.querySelector("pre code") || target;
         const originalLabel = button.textContent;
         try {
-          await navigator.clipboard.writeText(target.textContent.trim());
+          await navigator.clipboard.writeText(copySource.textContent.trim());
           button.textContent = "Copied";
         } catch {
           button.textContent = "Select and copy";

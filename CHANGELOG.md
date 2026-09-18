@@ -8,6 +8,7 @@ The project follows semantic versioning.
 
 ### Changed
 
+- Made agent initialization zero-preparation: the paste-ready prompt now has no blanks to complete, and the agent conducts and records a short setup conversation before creating the private project workspace.
 - Reframed the published guide around a bring-your-own-AI workflow in which people supply and approve church knowledge while the agent runs the project framework.
 - Added a plain-English start guide, agent setup prompt, preparation checklist, and direct links to key toolkit resources.
 - Added a focused interview guide with launch questions, session structure, topic routing, and post-interview steps.
