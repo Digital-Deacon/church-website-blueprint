@@ -8,6 +8,7 @@ The project follows semantic versioning.
 
 ### Changed
 
+- Rebuilt the public interview guide as a facilitator-ready runbook with entry routing, preflight checks, ordered questions, progressive topic modules, completion tests, persistent progress, post-interview processing, and a verification agenda.
 - Made agent initialization zero-preparation: the paste-ready prompt now has no blanks to complete, and the agent conducts and records a short setup conversation before creating the private project workspace.
 - Reframed the published guide around a bring-your-own-AI workflow in which people supply and approve church knowledge while the agent runs the project framework.
 - Added a plain-English start guide, agent setup prompt, preparation checklist, and direct links to key toolkit resources.

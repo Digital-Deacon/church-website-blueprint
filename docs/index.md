@@ -157,7 +157,7 @@ description: A practical, AI-assisted process for creating or improving a clear,
     </ol>
     <div class="process-actions">
       <a class="button primary" href="{{ '/humans/' | relative_url }}">Follow the full guide</a>
-      <a class="text-link-inverse" href="{{ '/interviews/' | relative_url }}">Open the interview questions →</a>
+      <a class="text-link-inverse" href="{{ '/interviews/' | relative_url }}">Run the interview →</a>
     </div>
   </div>
 </section>
@@ -172,7 +172,7 @@ description: A practical, AI-assisted process for creating or improving a clear,
   </div>
   <div class="resource-list">
     <a href="https://github.com/Digital-Deacon/church-website-blueprint/blob/main/playbook/00-human-facing-assets.md#asset-1--project-launch-sheet"><span>Start</span><strong>Project Launch Sheet</strong><em>Choose the project path, people, constraints, evidence, and next action.</em><b>Open ↗</b></a>
-    <a href="{{ '/interviews/' | relative_url }}"><span>Discover</span><strong>Interview Questions</strong><em>Run focused conversations about identity, visitors, ministries, operations, design, and ownership.</em><b>Open →</b></a>
+    <a href="{{ '/interviews/' | relative_url }}"><span>Discover</span><strong>Interview Runbook</strong><em>Follow the conversation from preflight through questions, follow-ups, processing, and verification.</em><b>Begin →</b></a>
     <a href="https://github.com/Digital-Deacon/church-website-blueprint/blob/main/playbook/03-existing-site-assessment.md"><span>Assess</span><strong>Existing-Site Assessment</strong><em>See whether visitors can understand the church, determine fit, and take a next step.</em><b>Open ↗</b></a>
     <a href="https://github.com/Digital-Deacon/church-website-blueprint/blob/main/playbook/02-templates-and-prompts.md"><span>Create</span><strong>Templates and AI Prompts</strong><em>Build the fact ledger, DNA documents, sitemap, page briefs, copy, design specification, and audits.</em><b>Open ↗</b></a>
   </div>

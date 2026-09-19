@@ -87,7 +87,7 @@ This is a practical research synthesis, not a claim that one controlled study pr
   <a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"><strong>Search fundamentals</strong><span>Google Search Central: helping search engines crawl, index, and understand useful content</span><b>Open ↗</b></a>
   <a href="https://www.w3.org/WAI/standards-guidelines/wcag/"><strong>Accessibility</strong><span>W3C Web Accessibility Initiative: the shared WCAG standard for accessible web content</span><b>Open ↗</b></a>
   <a href="https://github.com/Digital-Deacon/church-website-blueprint/blob/main/playbook/03-existing-site-assessment.md"><strong>Applied assessment</strong><span>The framework’s visitor-fit rubric, archetypes, hierarchy checks, and evidence extraction</span><b>Open ↗</b></a>
-  <a href="https://github.com/Digital-Deacon/church-website-blueprint/blob/main/playbook/01-interview-guide.md"><strong>Applied discovery</strong><span>The complete question library that turns the research into a church-specific source record</span><b>Open ↗</b></a>
+  <a href="{{ '/interviews/' | relative_url }}"><strong>Applied discovery</strong><span>The facilitator-ready runbook that turns the research into a church-specific source record</span><b>Run →</b></a>
 </div>
 
 <div class="next-panel">
@@ -96,7 +96,7 @@ This is a practical research synthesis, not a claim that one controlled study pr
   <p>The agent will use the framework’s website expertise. The church’s job is to supply evidence, answer honestly, correct misunderstandings, make decisions, and approve what will represent it publicly.</p>
   <div>
     <a class="button primary" href="{{ '/humans/' | relative_url }}">Start the guide</a>
-    <a class="button outline" href="{{ '/interviews/' | relative_url }}">Open the interview questions</a>
+    <a class="button outline" href="{{ '/interviews/' | relative_url }}">Run an interview</a>
   </div>
 </div>
 

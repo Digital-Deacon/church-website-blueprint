@@ -147,7 +147,7 @@ Use a church-scoped API key with only the permissions the agent needs. The agent
   <h2>Now run the first launch conversation.</h2>
   <div>
     <a class="button primary" href="{{ '/humans/' | relative_url }}">Follow the human guide</a>
-    <a class="button outline" href="{{ '/interviews/' | relative_url }}">Open the interview questions</a>
+    <a class="button outline" href="{{ '/interviews/' | relative_url }}">Run the first interview</a>
   </div>
 </div>
 
