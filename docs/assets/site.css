@@ -1191,7 +1191,7 @@ main > .prose {
 
 .route-primary:hover { color: #fff; background: var(--dd-navy-soft); transform: translateY(-1px); }
 .route-primary > .route-kicker { color: var(--dd-green-pale); font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
-.route-copy { display: block; }
+.route-copy { display: block; color: inherit; font-size: inherit; font-weight: inherit; letter-spacing: normal; text-transform: none; }
 .prose .route-primary strong { display: block; color: #fff; font-family: var(--dd-font-display); font-size: 1.02rem; }
 .route-primary small { display: block; margin-top: .25rem; color: rgba(255, 255, 255, .72); font-size: .87rem; }
 .route-primary > b { color: var(--dd-green-pale); font-size: 1.15rem; }
