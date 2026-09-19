@@ -15,7 +15,7 @@ permalink: /interviews/
 
 <div class="route-panel" markdown="1">
   <div class="route-heading"><p>Choose one starting point</p><h2>Where are you today?</h2></div>
-  <a class="route-primary" href="#step-1"><span>Start here</span><div><strong>This is our first conversation</strong><small>Begin with the preflight, then establish the project.</small></div><b aria-hidden="true">→</b></a>
+  <a class="route-primary" href="#step-1"><span class="route-kicker">Start here</span><span class="route-copy"><strong>This is our first conversation</strong><small>Begin with the preflight, then establish the project.</small></span><b aria-hidden="true">→</b></a>
   <p class="route-divider">Or continue from a later stage</p>
   <div class="route-options">
     <a href="#step-3"><strong>Project setup is complete</strong><span>Begin Session A: identity and audience.</span><b aria-hidden="true">→</b></a>

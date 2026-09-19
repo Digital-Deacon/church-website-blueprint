@@ -1190,7 +1190,8 @@ main > .prose {
 }
 
 .route-primary:hover { color: #fff; background: var(--dd-navy-soft); transform: translateY(-1px); }
-.route-primary > span { color: var(--dd-green-pale); font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.route-primary > .route-kicker { color: var(--dd-green-pale); font-size: .72rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.route-copy { display: block; }
 .prose .route-primary strong { display: block; color: #fff; font-family: var(--dd-font-display); font-size: 1.02rem; }
 .route-primary small { display: block; margin-top: .25rem; color: rgba(255, 255, 255, .72); font-size: .87rem; }
 .route-primary > b { color: var(--dd-green-pale); font-size: 1.15rem; }
@@ -1793,8 +1794,8 @@ main > .prose {
   .route-heading,
   .route-primary { grid-template-columns: 1fr 24px; }
   .route-heading > p { grid-column: 1 / -1; }
-  .route-primary > span { grid-column: 1 / -1; }
-  .route-primary > div { grid-column: 1; }
+  .route-primary > .route-kicker { grid-column: 1 / -1; }
+  .route-primary > .route-copy { grid-column: 1; }
   .route-primary > b { grid-column: 2; grid-row: 2; }
   .route-options a { grid-template-columns: 1fr 24px; gap: .25rem 1rem; }
   .route-options a strong,
