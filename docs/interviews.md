@@ -9,31 +9,18 @@ permalink: /interviews/
 
 <p class="eyebrow page-eyebrow">Facilitator runbook</p>
 
-# Run the interview from this page.
+# Run the interview.
 
-<p class="page-lead">Keep this guide open while you record. Start at Step 1, ask the questions in order, open a specialist module only when it applies, and use each completion check to know when to move on.</p>
-
-<div class="interview-command" markdown="1">
-  <div class="command-summary">
-    <strong>Your default plan</strong>
-    <p>Two recorded interviews and one shorter verification call. One facilitator leads; one or two people who know the church answer.</p>
-  </div>
-  <dl>
-    <div><dt>Session A</dt><dd>75–90 min</dd></div>
-    <div><dt>Session B</dt><dd>75–90 min</dd></div>
-    <div><dt>Verification</dt><dd>30–45 min</dd></div>
-  </dl>
-  <a class="button primary" href="#step-1">Begin the preflight</a>
-</div>
+<p class="page-lead">Keep this page open while you record. Start at Step 1, ask the questions in order, and move on when the completion check is met.</p>
 
 <div class="route-panel" markdown="1">
-  <h2>Choose where to enter</h2>
-  <p>You do not need to make a project plan before using this page. Pick the statement that matches today.</p>
+  <div class="route-heading"><p>Choose one starting point</p><h2>Where are you today?</h2></div>
+  <a class="route-primary" href="#step-1"><span>Start here</span><div><strong>This is our first conversation</strong><small>Begin with the preflight, then establish the project.</small></div><b aria-hidden="true">→</b></a>
+  <p class="route-divider">Or continue from a later stage</p>
   <div class="route-options">
-    <a href="#step-1"><strong>This is our first conversation</strong><span>Start with the preflight and project launch.</span></a>
-    <a href="#step-3"><strong>We already completed project setup</strong><span>Go to Session A and establish the church’s identity and audience.</span></a>
-    <a href="#step-4"><strong>We are continuing discovery</strong><span>Go to Session B or open the specialist module your agent identified.</span></a>
-    <a href="#step-6"><strong>We are reviewing what was captured</strong><span>Go directly to the verification meeting.</span></a>
+    <a href="#step-3"><strong>Project setup is complete</strong><span>Begin Session A: identity and audience.</span><b aria-hidden="true">→</b></a>
+    <a href="#step-4"><strong>Discovery is underway</strong><span>Continue with Session B or a specialist follow-up.</span><b aria-hidden="true">→</b></a>
+    <a href="#step-7"><strong>Answers need review</strong><span>Go to the verification meeting.</span><b aria-hidden="true">→</b></a>
   </div>
   <p class="route-note"><strong>Existing website?</strong> Ask your agent to assess it before Session A. Bring the findings into the conversation so people verify what is already known instead of repeating it.</p>
 </div>
@@ -44,12 +31,13 @@ permalink: /interviews/
   <div class="rail-inner">
     <p class="rail-label">Interview path</p>
     <nav class="runbook-nav" aria-label="Runbook steps">
-      <a href="#step-1"><span>1</span>Prepare</a>
-      <a href="#step-2"><span>2</span>Launch</a>
-      <a href="#step-3"><span>3</span>Identity</a>
-      <a href="#step-4"><span>4</span>Experience</a>
-      <a href="#step-5"><span>5</span>Follow up</a>
-      <a href="#step-6"><span>6</span>Verify</a>
+      <a data-runbook-link href="#step-1"><span>1</span>Prepare</a>
+      <a data-runbook-link href="#step-2"><span>2</span>Launch</a>
+      <a data-runbook-link href="#step-3"><span>3</span>Identity</a>
+      <a data-runbook-link href="#step-4"><span>4</span>Experience</a>
+      <a data-runbook-link href="#step-5"><span>5</span>Follow up</a>
+      <a data-runbook-link href="#step-6"><span>6</span>Process</a>
+      <a data-runbook-link href="#step-7"><span>7</span>Verify</a>
     </nav>
     <div class="progress-readout" aria-live="polite">
       <div><span>Progress</span><strong data-progress-label>0 of 7</strong></div>
@@ -302,12 +290,12 @@ permalink: /interviews/
     <p>Finish the current question, ask the closing questions below, and stop. Do not rush through the remaining modules. The transcript should produce the next focused interview.</p>
   </div>
   <div class="step-actions"><label class="milestone-check"><input type="checkbox" data-progress-item="operations"> <span><strong>Follow-ups routed</strong> Every relevant specialist module is complete or assigned to the right person.</span></label>
-  <a class="continue-link" href="#after-interview">Process the interview <span aria-hidden="true">↓</span></a></div>
+  <a class="continue-link" href="#step-6">Process the interview <span aria-hidden="true">↓</span></a></div>
 </section>
 
-<section class="runbook-step" id="after-interview">
+<section class="runbook-step" id="step-6">
   <header class="step-header">
-    <span class="step-number">↳</span>
+    <span class="step-number">6</span>
     <div><p class="step-type">After each recording · 15 minutes</p><h2>Close cleanly and hand the evidence to the agent.</h2></div>
   </header>
 
@@ -336,12 +324,12 @@ permalink: /interviews/
   </ol>
 
   <div class="step-actions"><label class="milestone-check"><input type="checkbox" data-progress-item="processed"> <span><strong>Interview processed</strong> The evidence is saved, summarized, checked, and routed to one next action.</span></label>
-  <a class="continue-link" href="#step-6">Continue to verification when ready <span aria-hidden="true">↓</span></a></div>
+  <a class="continue-link" href="#step-7">Continue to verification when ready <span aria-hidden="true">↓</span></a></div>
 </section>
 
-<section class="runbook-step" id="step-6">
+<section class="runbook-step" id="step-7">
   <header class="step-header">
-    <span class="step-number">6</span>
+    <span class="step-number">7</span>
     <div><p class="step-type">Verification · 30–45 minutes</p><h2>Correct facts, make decisions, and record approvals.</h2></div>
   </header>
   <p class="step-intro">Send the summary, exceptions, and draft source documents before the meeting. Use this call for corrections and decisions, not another open-ended interview.</p>
@@ -381,6 +369,8 @@ permalink: /interviews/
     const meter = document.querySelector("[data-interview-progress]");
     const label = document.querySelector("[data-progress-label]");
     const reset = document.querySelector("[data-reset-progress]");
+    const runbookLinks = Array.from(document.querySelectorAll("[data-runbook-link]"));
+    const runbookSteps = runbookLinks.map((link) => document.querySelector(link.hash)).filter(Boolean);
 
     const readSaved = () => {
       try { return JSON.parse(localStorage.getItem(storageKey) || "[]"); }
@@ -407,6 +397,18 @@ permalink: /interviews/
       document.querySelectorAll(".preflight-list input").forEach((item) => { item.checked = false; });
       update();
     });
+
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries) => {
+        const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (!visible) return;
+        runbookLinks.forEach((link) => {
+          if (link.hash === `#${visible.target.id}`) link.setAttribute("aria-current", "step");
+          else link.removeAttribute("aria-current");
+        });
+      }, { rootMargin: "-18% 0px -72% 0px", threshold: 0 });
+      runbookSteps.forEach((step) => observer.observe(step));
+    }
 
     update();
   })();
